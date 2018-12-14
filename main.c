@@ -47,6 +47,7 @@ int main() {
 
 int dayAwardSwitch(int mon, int tue, int wed, int thu, int fri, int sat, int sun, int gun) {
     assert(gun > 0 && gun < 8);
+
     switch (gun) {
         case 1:
             return mon;
